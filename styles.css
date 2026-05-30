@@ -1,16 +1,44 @@
-
 body {
-  font-family: Arial;
-  text-align: center;
-  margin-top: 80px;
-  background-color: lightblue;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  background-color: #cfe9ff; /* hellblau */
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Abstand zwischen Kästchen */
+
+  text-align: center;
+}
+
+/* jedes „Kästchen“ */
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  min-width: 280px;
+}
+
+/* Buttons schöner machen */
 button {
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4aa3ff;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #2f8de0;
 }
