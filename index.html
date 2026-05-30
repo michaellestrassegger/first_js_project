@@ -5,30 +5,41 @@
   <title>Random Lunch Picker</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>Mein Random Picker</h1>
-  <p>Keine Ahnung was du heute essen sollst? Wähle eine Kategorie aus und bekomme einen leckeren Essensvorschlag. Guten Appetit!</p>
-  
-  <h2>Suppen</h2>
-  <button onclick="pickSoup()">Wähle Suppe</button>
+  <div class="container">
 
-  <p id="result_suppen"></p>
+    <h1>Mein Random Picker</h1>
+    <p>
+      Keine Ahnung was du heute essen sollst? Wähle eine Kategorie aus und bekomme einen leckeren Essensvorschlag. Guten Appetit!
+    </p>
 
-   <h2>Salate</h2>
-  <button onclick="pickSalad()">Wähle Salat</button>
+    <div class="box">
+      <h2>Suppen</h2>
+      <button onclick="pickSoup()">Wähle Suppe</button>
+      <p id="result_suppen"></p>
+    </div>
 
-  <p id="result_salate"></p>
+    <div class="box">
+      <h2>Salate</h2>
+      <button onclick="pickSalad()">Wähle Salat</button>
+      <p id="result_salate"></p>
+    </div>
 
-   <h2>Frühstück</h2>
-  <button onclick="pickBreakfast()">Wähle Frühstück</button>
+    <div class="box">
+      <h2>Frühstück</h2>
+      <button onclick="pickBreakfast()">Wähle Frühstück</button>
+      <p id="result_frühstück"></p>
+    </div>
 
-  <p id="result_frühstück"></p>
+    <div class="box">
+      <h2>Desserts</h2>
+      <button onclick="pickDessert()">Wähle Dessert</button>
+      <p id="result_dessert"></p>
+    </div>
 
-   <h2>Desserts</h2>
-  <button onclick="pickDessert()">Wähle Dessert</button>
-
-  <p id="result_dessert"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
