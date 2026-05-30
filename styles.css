@@ -1,7 +1,13 @@
+
 body {
   font-family: Arial;
   text-align: center;
   margin-top: 80px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 button {
