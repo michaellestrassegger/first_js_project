@@ -5,7 +5,7 @@ const suppen = [
   "Gemüseeintopf"
 ];
 
-function pickItem() {
+function pickSoup() {
   let randomIndex = Math.floor(Math.random() * suppen.length);
   document.getElementById("result_suppen").innerText = suppen[randomIndex];
 }
@@ -27,7 +27,7 @@ const salate = [
   "Mein Alles-Was-Zuhause-Ist-Mix-Salat"
 ];
 
-function pickItem() {
+function pickSalad() {
   let randomIndex = Math.floor(Math.random() * salate.length);
   document.getElementById("result_salate").innerText = salate[randomIndex];
 }
@@ -43,7 +43,7 @@ const frühstück = [
   "Joghurt mit Beeren oder Äpfeln"
 ];
 
-function pickItem() {
+function pickBreakfast() {
   let randomIndex = Math.floor(Math.random() * frühstück.length);
   document.getElementById("result_frühstück").innerText = frühstück[randomIndex];
 }
@@ -58,7 +58,7 @@ const desserts = [
   "frische Früchte"
 ];
 
-function pickItem() {
+function pickDessert() {
   let randomIndex = Math.floor(Math.random() * desserts.length);
   document.getElementById("result_desserts").innerText = desserts[randomIndex];
 }
