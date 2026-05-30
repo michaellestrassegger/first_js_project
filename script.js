@@ -8,7 +8,7 @@ const suppen = [
 
 function pickItem() {
   let randomIndex = Math.floor(Math.random() * suppen.length);
-  document.getElementById("result").innerText = suppen[randomIndex];
+  document.getElementById("result_suppen").innerText = suppen[randomIndex];
 }
 
 // Loop Beispiel (wichtig für dein Lernen!)
